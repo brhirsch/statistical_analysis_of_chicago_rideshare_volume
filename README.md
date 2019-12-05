@@ -25,7 +25,7 @@ Plotting over a map of Chicago and changing the size of each node to reflect rel
 
 Using Louvain Clustering, I identified 4 underlying community structures. Clustering 800+ nodes into 4 clusters also allowed me to easily test each forecasting method against 4 time-series datasets, as opposed to having to test and validate against 800 time-series. 
 
-![Network 3](https://github.com/brhirsch/Forecasting-Chicago-Rideshare-Volume-/blob/master/images/network3.PNG)
+<img src="https://github.com/brhirsch/Forecasting-Chicago-Rideshare-Volume-/blob/master/images/network3.PNG" width="1100" height="580">
 
 
 ### Time-Series Forecasting Models
