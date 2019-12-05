@@ -16,11 +16,13 @@ To take advantage of the geolocation features in the dataset, I created a networ
 
 ![Network 1](https://github.com/brhirsch/Forecasting-Chicago-Rideshare-Volume-/blob/master/images/network1.PNG)
 
-<img src="https://github.com/brhirsch/Forecasting-Chicago-Rideshare-Volume-/blob/master/images/network1.PNG" width="100" height="100">
 
 Plotting over a map of Chicago and changing the size of each node to reflect relative rideshare volume lets you easily see where rides are concentrated.
 
 ![Network 2](https://github.com/brhirsch/Forecasting-Chicago-Rideshare-Volume-/blob/master/images/network2.PNG)
+
+<img src="https://github.com/brhirsch/Forecasting-Chicago-Rideshare-Volume-/blob/master/images/network1.PNG" width="1300" height="500">
+
 
 Using Louvain Clustering, I identified 4 underlying community structures. Clustering 800+ nodes into 4 clusters also allowed me to easily test each forecasting method against 4 time-series datasets, as opposed to having to test and validate against 800 time-series. 
 
