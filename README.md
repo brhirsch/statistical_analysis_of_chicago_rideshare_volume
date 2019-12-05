@@ -16,6 +16,8 @@ To take advantage of the geolocation features in the dataset, I created a networ
 
 ![Network 1](https://github.com/brhirsch/Forecasting-Chicago-Rideshare-Volume-/blob/master/images/network1.PNG)
 
+<img src="https://github.com/brhirsch/Forecasting-Chicago-Rideshare-Volume-/blob/master/images/network1.PNG" width="100" height="100">
+
 Plotting over a map of Chicago and changing the size of each node to reflect relative rideshare volume lets you easily see where rides are concentrated.
 
 ![Network 2](https://github.com/brhirsch/Forecasting-Chicago-Rideshare-Volume-/blob/master/images/network2.PNG)
