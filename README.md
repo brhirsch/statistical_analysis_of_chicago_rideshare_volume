@@ -29,56 +29,15 @@ Using Louvain Clustering, I identified 4 underlying community structures. Cluste
 
 In order to identify which method to use to forecast hourly rideshare volume in every neighborhood in Chicago, I tested various statistical methods on aggregated data based on the clusters in the network analysis. 
 
-The methods I tested using walk-forward-validation were SARIMA, TBATS, and Facebook's Prophet. 
+The methods I tested using walk-forward-validation were SARIMA, TBATS, and Facebook's Prophet. Overall, Prophet performed the best and was used to create forecasts for the 800+ census tract locations. 
+
+![Results](https://github.com/brhirsch/Forecasting-Chicago-Rideshare-Volume-/blob/master/images/model_results.PNG)
 
 
+## Tableau Dashboard 
 
-```
-Give the example
-```
+I connected US Census data using census tract identification numbers, and created an interactive Tableau dashboard to showcase the results of the project.
 
-And repeat
+Link: https://public.tableau.com/profile/brandin2738#!/vizhome/ChicagoRideshareForecastDashboard/Dashboard1
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-
-
-
+![Results](https://github.com/brhirsch/Forecasting-Chicago-Rideshare-Volume-/blob/master/images/dashboard.PNG)
