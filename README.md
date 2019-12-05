@@ -13,7 +13,7 @@ Link: https://data.cityofchicago.org/Transportation/Transportation-Network-Provi
 ### Network Analysis
 
 
-![Network 1](images/network1.gif)
+![Network 1](images/network1.png)
 
 What things you need to install the software and how to install them
 
